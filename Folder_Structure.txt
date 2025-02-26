@@ -1,0 +1,57 @@
+
+Initial folder structure:
+________________________________________________
+src/
+├── app/
+│   ├── (auth)/
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   └── register/
+│   │       └── page.tsx
+│   ├── (dashboard)/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── chat/
+│   │   │   └── page.tsx
+│   │   ├── kanban/
+│   │   │   └── page.tsx
+│   │   ├── users/
+│   │   │   └── page.tsx
+│   │   ├── products/
+│   │   │   └── page.tsx
+│   │   ├── orders/
+│   │   │   └── page.tsx
+│   │   ├── brands/
+│   │   │   └── page.tsx
+│   │   ├── banking/
+│   │   │   └── page.tsx
+│   │   ├── file-manager/
+│   │   │   └── page.tsx
+│   │   ├── tasks/
+│   │   │   └── page.tsx
+│   │   ├── calendar/
+│   │   │   └── page.tsx
+│   │   ├── blog/
+│   │   │   └── page.tsx
+│   │   ├── contacts/
+│   │   │   └── page.tsx
+│   │   └── auth-management/
+│   │       └── page.tsx
+│   ├── api/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── Button.tsx
+│   │   ├── Card.tsx
+│   │   └── Input.tsx
+│   ├── dashboard/
+│   │   ├── Sidebar.tsx
+│   │   ├── Header.tsx
+│   │   └── Footer.tsx
+│   └── shared/
+│       ├── LoadingSpinner.tsx
+│       └── ErrorBoundary.tsx
+└── lib/
+    └── utils.ts
+________________________________________________
