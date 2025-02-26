@@ -1,8 +1,18 @@
-export default function ChatPage() {
+import dynamic from 'next/dynamic'
+
+const ChatInterface = dynamic(() => import('./ChatInterface'), {
+    loading: () => <p>Loading chat...</p>
+})
+
+export default async function ChatPage() {
+    // Fetch initial messages from an API
+    const messages = await fetch('https://api.example.com/messages').then(res => res.json())
+
     return (
         <div className="bg-white p-6 rounded-lg shadow-md">
             <h1 className="text-2xl font-bold mb-4">Chat</h1>
-            <p>Chat feature coming soon...</p>
+            {/* <ChatInterface initialMessages={messages} /> */}
+            <ChatInterface />
         </div>
     )
 }
