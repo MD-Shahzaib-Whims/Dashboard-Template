@@ -35,7 +35,7 @@ src/
 │   │   │   └── page.tsx
 │   │   ├── contacts/
 │   │   │   └── page.tsx
-│   │   └── auth-management/
+│   │   └── authorization/
 │   │       └── page.tsx
 │   ├── api/
 │   ├── layout.tsx
