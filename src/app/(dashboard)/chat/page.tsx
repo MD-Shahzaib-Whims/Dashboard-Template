@@ -4,7 +4,7 @@ const ChatInterface = dynamic(() => import('./ChatInterface'), {
     loading: () => <p>Loading chat...</p>
 })
 
-export default async function ChatPage() {
+export default async function Chat() {
     // Fetch initial messages from an API
     const messages = []
 
