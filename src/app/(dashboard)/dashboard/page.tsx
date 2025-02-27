@@ -1,3 +1,10 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Dashboard | My App',
+    description: 'View and manage your account information',
+}
+
 export default function Dashboard() {
     return (
         <div className="bg-white p-6 rounded-lg shadow-md">
