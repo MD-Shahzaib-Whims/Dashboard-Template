@@ -13,8 +13,6 @@ src/
 │   │   ├── page.tsx
 │   │   ├── chat/
 │   │   │   └── page.tsx
-│   │   ├── kanban/
-│   │   │   └── page.tsx
 │   │   ├── users/
 │   │   │   └── page.tsx
 │   │   ├── products/

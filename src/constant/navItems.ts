@@ -1,7 +1,6 @@
 const NAV_ITEMS = [
     { name: 'Dashboard', href: '/', icon: '📊' },
     { name: 'Chat', href: '/chat', icon: '💬' },
-    { name: 'Kanban', href: '/kanban', icon: '📋' },
     { name: 'Users', href: '/users', icon: '👥' },
     { name: 'Products', href: '/products', icon: '🛍️' },
     { name: 'Orders', href: '/orders', icon: '📦' },
