@@ -6,7 +6,7 @@ const ChatInterface = dynamic(() => import('./ChatInterface'), {
 
 export default async function ChatPage() {
     // Fetch initial messages from an API
-    const messages = await fetch('https://api.example.com/messages').then(res => res.json())
+    const messages = []
 
     return (
         <div className="bg-white p-6 rounded-lg shadow-md">
